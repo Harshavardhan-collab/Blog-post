@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/winter-blue-pink-gradient-background-vector_53876-117276.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* For devices like tablets and smaller screens */
+
+@media (max-width: 768px) {
+    body {
+        background-position: top center;
+        /* Adjust the background position for smaller screens */
+    }
+}
+
+
+/* For smaller devices like phones */
+
+@media (max-width: 480px) {
+    body {
+        background-size: auto;
+        /* Adjust background size for smaller screens to prevent stretching */
+        background-position: top center;
+        /* Adjust position for phones */
+    }
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 1rem;
+}
+
+#postedContent {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 10px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+    word-wrap: break-word;
+}
+
+#content {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+#submit {
+    border: 1px solid black;
+    border-radius: 1rem;
+    color: white;
+    background-color: #4CAF50;
+    ;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80px;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#like {
+    color: white;
+    background-color: #FF5733;
+}
+
+#share {
+    color: white;
+    background-color: #1E90FF;
+}
+
+#comment {
+    color: white;
+    background-color: #FFA500;
+}
+
+#submitComment {
+    color: white;
+    background-color: #4CAF50;
+}
+
+#commentInput {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+#message {
+    padding-top: 40px;
+}
