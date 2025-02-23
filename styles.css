@@ -36,6 +36,14 @@ body {
     flex-direction: column;
     padding-top: 80px;
     gap: 1rem;
+    width: 80%;
+    /* Change this to a percentage to make it responsive */
+    max-width: 500px;
+    /* Maximum width for large screens */
+    margin: 20px auto;
+    /* Center the container */
+    padding: 20px;
+    /* Add some padding for spacing inside the container */
 }
 
 #postedContent {
@@ -50,6 +58,13 @@ body {
     justify-content: flex-start;
     background-color: #f9f9f9;
     word-wrap: break-word;
+    width: 60%;
+    /* Adjust the width for responsiveness */
+    max-width: 600px;
+    /* Maximum width for larger screens */
+    margin-left: auto;
+    /* Center the box horizontally */
+    margin-right: auto;
 }
 
 #content {
